@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="urn:Microsoft.WindowsPhone/PackageSchema.v8.00"
+  Platform="QC8909"
+  Owner="Microsoft"
+  Component="Drivers"
+  SubComponent="HallSensor"
+  OwnerType="Microsoft"
+  ReleaseType="Production"
+  Partition="MainOS">
+  <Components>
+    <OSComponent>
+    
+      <Files>
+        <File DestinationDir="$(runtime.drivers)" Source="HallSensor.sys" />
+      </Files>
+
+    </OSComponent>
+    
+    <Driver InfSource="HallSensor.inf">
+      <Security InfSectionName="Sensor_Inst_SecurityAddReg">
+        <AccessedByCapability Id="ID_CAP_SENSORS" Rights="$(GENERIC_READ)$(GENERIC_EXECUTE)" />
+      </Security>
+      <Reference Source="HallSensor.sys" />
+    </Driver>
+    
+  </Components>
+  
+</Package>

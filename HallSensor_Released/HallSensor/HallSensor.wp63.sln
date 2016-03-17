@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HallSensor", "HallSensor\HallSensor.vcxproj", "{C6783A12-32A1-4DDF-9F63-CFFC000C95A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Release|ARM = Release|ARM
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C6783A12-32A1-4DDF-9F63-CFFC000C95A1}.Debug|ARM.ActiveCfg = Debug|ARM
+		{C6783A12-32A1-4DDF-9F63-CFFC000C95A1}.Debug|ARM.Build.0 = Debug|ARM
+		{C6783A12-32A1-4DDF-9F63-CFFC000C95A1}.Release|ARM.ActiveCfg = Release|ARM
+		{C6783A12-32A1-4DDF-9F63-CFFC000C95A1}.Release|ARM.Build.0 = Release|ARM
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
